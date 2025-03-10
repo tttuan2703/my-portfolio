@@ -1,0 +1,32 @@
+---
+import Header from "../components/header/Header.astro";
+import "../style/index.css";
+import Main from "../components/main/main.astro";
+import Footer from "../components/footer/Footer.astro";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tuan Tai" />
+    <meta property="og:title" content="Tuan Tai Portfolio" />
+    <meta
+      property="og:image"
+      content="https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/2898a0ac51.js"
+      crossorigin="anonymous"></script>
+    <title>Portfolio | Tuan Tai</title>
+  </head>
+  <body>
+    <Header />
+    <Main />
+    <Footer />
+  </body>
+</html>
