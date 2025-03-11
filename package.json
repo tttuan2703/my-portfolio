@@ -7,7 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "deploy": "astro build && touch dist/.nojekyll && gh-pages -d dist"
+    "deploy": "astro build && npx gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/vercel": "^7.7.0",
